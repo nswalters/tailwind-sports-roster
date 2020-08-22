@@ -18644,6 +18644,10 @@ video {
   animation: bounce 1s infinite;
 }
 
+.text-shadow-1 {
+  text-shadow: 1px 1px black;
+}
+
 @media (min-width: 640px) {
   .sm\:container {
     width: 100%;

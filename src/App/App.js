@@ -35,7 +35,7 @@ class App extends React.Component {
       }
       return (
         <h2 className="text-center text-white text-2xl">Please login to continue.</h2>
-      )
+      );
     };
 
     return (
