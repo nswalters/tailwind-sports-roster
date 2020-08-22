@@ -33,7 +33,9 @@ class App extends React.Component {
       if (this.state.isAuthed) {
         return component;
       }
-      return null;
+      return (
+        <h2 className="text-center text-white text-2xl">Please login to continue.</h2>
+      )
     };
 
     return (
